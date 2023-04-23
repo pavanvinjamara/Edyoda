@@ -1,0 +1,23 @@
+.navbar-module{
+    width: fit-content;
+    height: 100vh;
+    background-color: #e0e6f2;
+}
+.module-info{
+    display: flex;
+    padding: 20px 45px 20px 48px;
+}
+.module-info >img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.module-info > p{
+    color: black;
+    padding-top: 5px;
+}
+
+.para-module {
+    text-decoration: none;
+    
+}

@@ -1,0 +1,13 @@
+.instruction{
+    background-color: #f2f6ff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction > img {
+    animation: heartBeat 2.5s 1s;
+}

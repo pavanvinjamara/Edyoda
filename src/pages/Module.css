@@ -1,0 +1,5 @@
+.module-container{
+    display: flex;
+    background-color: #f1f5fe;
+    width: 100%;
+}

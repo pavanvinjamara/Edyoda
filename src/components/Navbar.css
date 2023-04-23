@@ -1,0 +1,89 @@
+.navbar-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 132px 10px 79px;
+}
+.nav-logo{
+    margin: 15px;
+    height: 32px;
+    width: 162px;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+.nav-section > p{
+    font-size: 17px;
+    margin-right: 27px;
+}
+.profile-picture{
+    height: 61px;
+    width: 61px;
+}
+
+.navbar-two{
+    background-color: #15294b;
+    color: white;
+}
+.nav-section2{
+    display: flex;
+    padding: 26px 0px 26px 97px;
+}
+.icon-down{
+    padding: 3px 45px 0px 0px;
+    transform: rotate(0);
+}
+
+.icon-right{
+    transform: rotate(180deg);
+    
+    padding: 0px 0px 10px 40px;
+}
+
+.hideSection{
+    display: none;
+}
+
+.activeClass{
+    background-color: white;
+    color: #15294b;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inactiveclass{
+    list-style: none;
+}
+.showSection{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: #15294b;
+    width: 100%;
+}
+
+.section2-para{
+    padding-left: 97px;
+    font-size: 16px;
+}
+
+.nav-section2 > p{
+    font-size: 20px;
+    padding: 3px 19px 0px 0px;
+}
+
+.nav-section2 > h3{
+    font-size: 25px;
+}
+.nav-list{
+    padding: 39px 0px 54px 112px;
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+}
+
+.list-items-b{
+    list-style: none;
+    
+
+}

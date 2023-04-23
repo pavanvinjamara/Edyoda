@@ -1,0 +1,30 @@
+.nav-three{
+    background-color: #15294b;
+    display: flex;
+    flex-direction: column;
+    width: 146px;
+}
+
+.icon-info{
+    font-size: 14px;
+    color: white;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.fa-icons{
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding-bottom: 7px;
+}
+.fa-active{
+    font-size: 14px;
+    color: #15294b;
+    background-color: #e0e6f2;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}

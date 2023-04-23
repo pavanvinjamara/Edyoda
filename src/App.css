@@ -1,0 +1,18 @@
+.message{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #0048ff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.mess-icon{
+    width: 30px;
+}

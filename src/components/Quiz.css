@@ -1,0 +1,27 @@
+.quiz{
+    background-color: #f1f5fe;
+    display: flex; 
+    flex-direction: column;
+    width: 70%;
+    margin: 50px;
+}
+
+.head-quiz{
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-bottom: 15px;
+    /* font-size: larger; */
+}
+.para-quiz{
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.small-Para5{
+    font-family: "Open Sans";
+    font-size: larger;
+    font-weight: 400;
+    margin-bottom: 30px;
+}

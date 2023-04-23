@@ -1,0 +1,58 @@
+.review{
+    background-color: white;
+    border: 1.7px solid #9fcee2;
+    border-radius: 7px;
+    display: flex;
+    padding: 40px 80px;
+    text-align: start;
+    justify-content: space-around;
+    /* margin: 50px; */
+}
+.review-1{
+    display: flex;
+    
+    border-right: 2px solid black;
+    padding-right: 90px;
+}
+.review-2{
+    display: flex;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.review-flex{
+    display: flex;
+}
+
+.review-icon{
+    height: 20px;
+}
+
+.review-cpara{
+    margin-right: 30px;
+}
+
+.norm{
+    font-family: "Oswald";
+    font-size: 34px;
+    text-align: start; 
+}
+
+.norm1{
+    font-family: "Open Sans";
+    font-weight: 200;
+}
+
+.norm2{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.norm3{
+    font-family: "Open Sans";
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+}

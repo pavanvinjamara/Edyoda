@@ -1,0 +1,52 @@
+.homeinfo3{
+    border: 1.7px solid #9fcee2;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.homeinfo3 > p{
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-size: 13.5px;
+    margin-bottom: 10px;
+}
+
+.info3percent{
+    background-color: white;
+    border: 1.7px solid #9fcee2;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contflex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.info3span1{
+    font-family: "Oswald";
+
+}
+.info3span2{
+    font-weight: 100;
+    font-size: smaller;
+    color: #856e8c;
+
+}
+
+.contperc{
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #dfd1d1;
+}
+
+.inheader{
+    text-transform: uppercase;
+    font-size: smaller;
+     color: #0096ff;
+}

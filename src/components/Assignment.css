@@ -1,0 +1,47 @@
+.assignment{
+     background-color: #f1f5fe;
+    display: flex; 
+    flex-direction: column;
+    width: 70%;
+    margin: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto 150px 150px;
+    
+}
+
+.grid1{
+    text-align: end;
+}
+
+.head-assign{
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+.para-assign{
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.small-Para{
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.normal-para{
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 200;
+}
+.normal-para1{
+    font-family: "Oswald";
+    font-size: large;
+    text-align: end;
+    padding-right: 30px;
+}
