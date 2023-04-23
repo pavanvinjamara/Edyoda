@@ -18,31 +18,25 @@ function Navbar2() {
   }
   return (
     <div className="nav-three">
-        <Link to="/">
-            <div onClick={handlebackground} id="home1" className={colorsbk=== "home1" ? "fa-active":'icon-info'}>
+      <Link to="/">
+          <div onClick={handlebackground} id="home1" className={colorsbk=== "home1" ? "fa-active":'icon-info'}>
             <FontAwesomeIcon icon={faHouseChimney} className={colorsbk=== "home1" ? "icon-active":'fa-icons'}/>
-                <p>HOME</p>
-            </div>
-         </Link>
-         <Link to="/module">
-            <div onClick={handlebackground} id="module1" className={colorsbk=== "module1" ? "fa-active":'icon-info'}>
+            <p>HOME</p>
+          </div>
+        </Link>
+        <Link to="/module">
+          <div onClick={handlebackground} id="module1" className={colorsbk=== "module1" ? "fa-active":'icon-info'}>
             <FontAwesomeIcon icon={faWarehouse}  className={colorsbk=== "module1" ? "icon-active":'fa-icons'} />
-
-                <p>MODULES</p>
-            </div>
-            </Link>
-            <Link to="/instruct">
-            <div onClick={handlebackground} id="instruct1" className={colorsbk=== "instruct1" ? "fa-active":'icon-info'}>
+            <p>MODULES</p>
+          </div>
+        </Link>
+        <Link to="/instruct">
+          <div onClick={handlebackground} id="instruct1" className={colorsbk=== "instruct1" ? "fa-active":'icon-info'}>
             <FontAwesomeIcon icon={faUserPen}  className={colorsbk=== "instruct1" ? "icon-active":'fa-icons'} />
-
-                <p>INSTRUCTIONS</p>
-            </div>
-            </Link>
-            <div>
-           
-
-            </div>
-        </div>
+            <p>INSTRUCTIONS</p>
+          </div>
+        </Link>
+    </div>
   )
 }
 

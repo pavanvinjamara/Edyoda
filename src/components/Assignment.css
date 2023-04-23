@@ -5,43 +5,48 @@
     width: 70%;
     margin: 50px;
 }
-.grid{
+.assignment-grid-container{
     display: grid;
     grid-template-columns: auto 150px 150px;
     
 }
 
-.grid1{
-    text-align: end;
-}
-
-.head-assign{
+.assignment-header{
     font-family: "Open Sans";
     font-weight: 400;
     margin-bottom: 15px;
     font-size: medium;
 }
-.para-assign{
+
+.assignment-para1{
     font-family: "Open Sans";
     font-size: medium;
     font-weight: 200;
     margin-bottom: 30px;
 }
-.small-Para{
+
+.assignment-container2{
+    text-align: end;
+}
+
+
+
+.assignment-para2{
     font-family: "Open Sans";
     font-size: medium;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
-.normal-para{
-    font-family: "Open Sans";
-    font-size: medium;
-    font-weight: 200;
-}
-.normal-para1{
+.assignment-para3{
     font-family: "Oswald";
     font-size: large;
     text-align: end;
     padding-right: 30px;
+}
+
+.assignment-para4{
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 200;
 }

@@ -35,7 +35,7 @@
     transform: rotate(0);
 }
 
-.icon-right{
+.icon-up{
     transform: rotate(180deg);
     
     padding: 0px 0px 10px 40px;
@@ -45,15 +45,6 @@
     display: none;
 }
 
-.activeClass{
-    background-color: white;
-    color: #15294b;
-    padding: 5px;
-    border-radius: 5px;
-}
-.inactiveclass{
-    list-style: none;
-}
 .showSection{
     display: block;
     position: absolute;
@@ -86,4 +77,14 @@
     list-style: none;
     
 
+}
+
+.activeClass{
+    background-color: white;
+    color: #15294b;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inactiveclass{
+    list-style: none;
 }

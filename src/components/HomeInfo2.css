@@ -1,4 +1,4 @@
-.homeinfo2 > h2{
+.homeinfo2-main-container > h2{
     display: flex;
      justify-content: end;
      padding-left: 20px;
@@ -7,59 +7,61 @@
      margin-bottom: 10px;
      color: #0010ff;
 }
-.sec2{
+.homeinfo2-subcontainer1{
     display: flex;
     border: 1.7px solid #9fcee2;
     border-radius: 6px;
     
 }
-.sec2:hover{
+.homeinfo2-subcontainer1:hover{
     transform: scale(1.1);
     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.6),
     -30px 0px 40px rgba(0, 0, 0, 0.6);
     z-index: 2;
-  }
-
-.home2-sec{
-    display: flex;
-}
-.sec21{
-    display: flex;
-}
-.sec21 > img{
-    height: 50px;
-
 }
 
-.sec21 > span{
-    color: #0599ff;
-    padding: 16px 0px 0px 8px;
-}
-.se-flex{
-    display: flex;
-    justify-content: space-between;
-}
-.sec2art1{
+.homeinfo2-subcontainer2{
     padding: 47px 100px 54px 47px;
     border-radius: 5px 0px 0px 5px;
     border-right: 1.7px solid #9fcee2;
     background-color: white;
 }
 
-.home2-sec > img{
+.homeinfo2-subcontainer3{
+    display: flex;
+}
+.homeinfo2-subcontainer3 > img{
     height: 100px;
     padding-right: 10px;
 }
 
-.contained >h1{
+.homeinfo2-subcontainer4 >h1{
     font-family: "Open Sans";
     font-size: large;
     font-weight: 300;
     text-transform: uppercase;
     color: #000;
 }
+.homeinfo2-subcontainer5{
+    display: flex;
+}
+.homeinfo2-subcontainer5 > img{
+    height: 50px;
 
-.se-flex > span{
+}
+
+.homeinfo2-subcontainer5 > span{
+    color: #0599ff;
+    padding: 16px 0px 0px 8px;
+}
+.homeinfo2-subcontainer6{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.homeinfo2-subcontainer6 > span{
     font-size: 10px;
     font-family: sans-serif;
     text-align: center;
@@ -67,61 +69,62 @@
    
 }
 
-.percent > span{
+.homeinfo2-subcontainer7 > span{
     font-size: 13px;
     color: #abe1ff;
     
 }
-.percent1{
+.homeinfo2-subcontainer8{
     height: 5px;
     border-radius: 2.5px;
     width: 150px;
     background-color: #abe1ff;
 }
 
-.sec2art2{
+
+.homeinfo2-subcontainer10{
     padding: 44px 42px 54px 42px;
     background-color: white;
     border-radius: 5px;
 }
 
-.parasec2{
+.homeinfo2-subcontainer10-pargh1{
     font-weight: 400;
     font-family: "Open Sans";
     font-size: 13px;
 }
-.parasec{
+.homeinfo2-subcontainer10-pargh2{
     font-size: 10.5px;
     color: rgb(205, 201, 201);
     margin-bottom: 20px;
 }
-.head1{
+.homeinfo2-subcontainer10-head1{
     font-family: "Open Sans";
     font-size: 14px;
     margin-bottom: 12px;
     color: #027cff;
 }
 
-.hh1{
+.homeinfo2-subcontainer11{
     display: flex;
     justify-content: space-between;
 }
 
-.hh1p1{
+.homeinfo2-subcontainer11-para1{
     font-size: 11.5px;
     text-transform: capitalize;
     font-family: "Open Sans";
     color: #c4c5d0;
 }
 
-.hh1p2{
+.homeinfo2-subcontainer11-para2{
     font-size: 9px;
     font-family: "Open Sans";
     padding-top: 3px;
     color: #4ac0f5;
 }
 
-.pavanpara{
+.homeinfo2-subcontainer11-para3{
     text-transform: uppercase;
     font-size: smaller;
     padding: 8px;
@@ -131,7 +134,7 @@
     margin-top: 15px;
 }
 
-.pavanpara1{
+.homeinfo2-subcontainer11-para4{
     text-align: center;
     text-transform: uppercase;
     font-size: x-small;

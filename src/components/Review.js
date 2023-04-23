@@ -6,34 +6,42 @@ import Clock from '../Icons/clock-blue.svg'
 function Review() {
   return (
     <div className='review'>
-      <div className='review-1'>
-        <div className='review-cpara'>
-        <p className='norm'>3</p>
-        <p className='norm1'>Problems</p>
+      <div className='review-container1'>
+        <div className='review-container2'>
+          <p className='review-container2-paragh1'>3</p>
+          <p className='review-container2-paragh2'>Problems</p>
         </div>
         <div >
-        <p className='norm'>100</p>
-        <p className='norm1'>Total Score</p>
-        </div>
-        
+          <p className='review-container2-paragh1'>100</p>
+          <p className='review-container2-paragh2'>Total Score</p>
+        </div>  
       </div>
-      <div className='review-flex'>
+      
+      <div className='review-container3'>
         <div>
-          <p className='norm2'>Start:</p>
-          <div className='review-2'><img src={Calender} alt='' className='review-icon'/>
-          <p className='norm3'>20 December 2021</p></div>
-          <div className='review-2'> <img src={Clock} alt="" className='review-icon'/>
-          <p className='norm3'>07:30 PM</p></div>
+          <p className='review-container3-pargh'>Start:</p>
+          <div className='review-container4'>
+            <img src={Calender} alt='' className='review-icons'/>
+            <p className='review-container4-pargh'>20 December 2021</p>
+          </div>
+          <div className='review-container4'> 
+            <img src={Clock} alt="" className='review-icons'/>
+            <p className='review-container4-pargh'>07:30 PM</p>
+          </div>
         </div>
+
         <div>
-          <p className='norm2'>Due:</p>
-          <div className='review-2'><img src={Calender} alt='' className='review-icon'/>
-          <p className='norm3'>20 December 2021</p></div>
-          <div className='review-2'> <img src={Clock} alt="" className='review-icon'/>
-          <p className='norm3'>07:30 PM</p></div>
-        </div>
+          <p className='review-container3-pargh'>Due:</p>
+          <div className='review-container4'>
+            <img src={Calender} alt='' className='review-icons'/>
+            <p className='review-container4-pargh'>20 December 2021</p></div>
+          <div className='review-container4'> 
+            <img src={Clock} alt="" className='review-icons'/>
+            <p className='review-container4-pargh'>07:30 PM</p>
+          </div>
         </div>
       </div>
+    </div>
   )
 }
 

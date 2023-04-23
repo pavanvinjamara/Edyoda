@@ -60,7 +60,7 @@ function Navbar() {
         <div className='navbar-two'>
             <div className='nav-section2' onClick={handleDropDown}>
                 <p>{id}</p>
-                <FontAwesomeIcon icon={faSortDown} className={dropDown ? "icon-right": "icon-down"}/>
+                <FontAwesomeIcon icon={faSortDown} className={dropDown ? "icon-up": "icon-down"}/>
                 <h3>Data Scientist Program</h3>
             </div>
             <div className={dropDown ? 'showSection' : 'hideSection'}>

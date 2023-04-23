@@ -20,7 +20,7 @@
     margin-bottom: 10px;
 }
 
-.info3percent{
+.info3-subcontainer1{
     background-color: white;
     border: 1.7px solid #9fcee2;
     border-radius: 7px;
@@ -28,30 +28,30 @@
     margin-bottom: 15px;
 }
 
-.contflex{
+.info3-subcontainer2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
     border-radius: 5px;
 }
-.info3span1{
+.info3-subcontainer2-span1{
     font-family: "Oswald";
 
 }
-.info3span2{
+.info3-subcontainer2-span2{
     font-weight: 100;
     font-size: smaller;
     color: #856e8c;
 
 }
 
-.contperc{
+.info3-subcontainer3{
     height: 5px;
     border-radius: 2.5px;
     background-color: #dfd1d1;
 }
 
-.inheader{
+.info3-header1{
     text-transform: uppercase;
     font-size: smaller;
      color: #0096ff;

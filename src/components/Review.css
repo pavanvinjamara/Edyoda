@@ -8,48 +8,49 @@
     justify-content: space-around;
     /* margin: 50px; */
 }
-.review-1{
+.review-container1{
     display: flex;
     
     border-right: 2px solid black;
     padding-right: 90px;
 }
-.review-2{
-    display: flex;
-    margin-bottom: 15px;
-    margin-right: 20px;
-}
 
-.review-flex{
-    display: flex;
-}
-
-.review-icon{
-    height: 20px;
-}
-
-.review-cpara{
+.review-container2{
     margin-right: 30px;
 }
 
-.norm{
+.review-container2-paragh1{
     font-family: "Oswald";
     font-size: 34px;
     text-align: start; 
 }
 
-.norm1{
+.review-container2-paragh2{
     font-family: "Open Sans";
     font-weight: 200;
 }
+.review-container3{
+    display: flex;
+}
 
-.norm2{
+.review-container3-pargh{
     font-family: "Open Sans";
     font-weight: 400;
     font-size: large;
     margin-bottom: 15px;
 }
-.norm3{
+.review-container4{
+    display: flex;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+
+.review-icons{
+    height: 20px;
+}
+
+.review-container4-pargh{
     font-family: "Open Sans";
     font-weight: 200;
     text-transform: uppercase;

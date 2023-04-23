@@ -31,7 +31,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       <div className='message'>
-      <FontAwesomeIcon icon={faMessage} className='mess-icon'/> 
+        <FontAwesomeIcon icon={faMessage} className='mess-icon'/> 
       </div>
     </div>
   );

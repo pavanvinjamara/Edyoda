@@ -1,25 +1,18 @@
 
-.infohome1{
-    
+.infohome1-main-container{
     background-color: #f2f6ff;
     padding-bottom: 50px;
-    /* padding: px 0px 40px 112px; */
+  
 }
-.art0:hover{
-    transform: scale(1.1);
-    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.6),
-    -30px 0px 40px rgba(0, 0, 0, 0.6);
-    z-index: 2;
-  }
-
-.infohome1 > h1{
+.infohome1-main-container > h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 27px;
 }
 
-.art0{
+
+.infohome1-subcontainer1{
     display: flex;
     background-color: white;
     border: 1.7px solid #9fcee2;
@@ -29,19 +22,26 @@
     width: 80%;
 }
 
-.art1{
+.infohome1-subcontainer1:hover{
+    transform: scale(1.1);
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.6),
+    -30px 0px 40px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+
+.infohome1-container3{
     display: flex;
     
 }
 
-.art1 > img{
+.infohome1-container3 > img{
 height: 100px;
 padding-right: 40px;
 }
-.art2{
+.infohome1-subcontainer3{
     text-transform: uppercase;
 }
-.art2> h1{
+.infohome1-subcontainer3> h1{
     font-family: "Open Sans";
     font-size: medium;
     font-weight: 300;
@@ -49,7 +49,7 @@ padding-right: 40px;
     margin-bottom: 15px;
 }
 
-.span-1{
+.infohome1-span-1{
     background-color: #f5f5f5;
     font-size: 10px;
     padding: 8px;
@@ -58,7 +58,7 @@ padding-right: 40px;
     margin-bottom: 30px;
     
 }
-.span-2{
+.infohome1-span-2{
     font-size: 12px;
     background-color: #cceeff;
     padding: 8px;
@@ -66,35 +66,14 @@ padding-right: 40px;
     
 }
 
-.art3{
+.infohome1-subcontainer4{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Open Sans";
 }
 
-.art4{
-    font-size: 14px;
-    font-weight: 400;
-   
-}
-.art4 > p{
-    margin-bottom: 15px;
-}
-
-.art5{
-    display: flex;
-    margin-bottom: 15px;
-}
-.spanc{
-    background-color: #dfe6f2;
-    padding: 3px 7px;
-    text-align: center;
-    margin-left: 15px;
-    border-radius: 10px;
-}
-
-.art3 > button{
+.infohome1-subcontainer4 > button{
     border: 1.7px solid #9fcee2;
     background-color: white;
     color: #40abd9;
@@ -106,7 +85,29 @@ padding-right: 40px;
     text-transform: uppercase;
 }
 
-.art3 > button:hover{
+
+.infohome1-subcontainer4 > button:hover{
     background-color: #40abd9;
     color: white;
+}
+
+.infohome1-subcontainer5{
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+.infohome1-subcontainer5 > p{
+    margin-bottom: 15px;
+}
+
+.infohome1-subcontainer6{
+    display: flex;
+    margin-bottom: 15px;
+}
+.infohome1-span-3{
+    background-color: #dfe6f2;
+    padding: 3px 7px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
 }

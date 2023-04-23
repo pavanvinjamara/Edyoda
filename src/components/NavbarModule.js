@@ -17,26 +17,25 @@ function NavbarModule() {
   return (
     <div className='navbar-module'>
         <Link to="/module" className='para-module'>
-        <div id="python1" onClick={handleColorChange} className={colorChange=== "python1" ? "active-module":'module-info'}>
-            <img src={colorChange=== "python1" ? ActivePythonIcon : PythonIcon} alt=''/>
-            <p>Python Loops</p>
-        </div>
+            <div id="python1" onClick={handleColorChange} className={colorChange=== "python1" ? "active-module":'module-info'}>
+                <img src={colorChange=== "python1" ? ActivePythonIcon : PythonIcon} alt=''/>
+                <p>Python Loops</p>
+            </div>
         </Link>
         <Link to="/module/quiz" className='para-module'>
-        <div id="quiz9" onClick={handleColorChange} className={colorChange=== "quiz9" ? "active-module":'module-info'}>
-            <img src={colorChange=== "quiz9" ? ActiveQuizIcon : QuizIcon} alt=''/>
-            <p >Quiz-1: Data Types</p>
-        </div>
+            <div id="quiz9" onClick={handleColorChange} className={colorChange=== "quiz9" ? "active-module":'module-info'}>
+                <img src={colorChange=== "quiz9" ? ActiveQuizIcon : QuizIcon} alt=''/>
+                <p >Quiz-1: Data Types</p>
+            </div>
         </Link>
         <Link to="/module/assignment" className='para-module'>
-        <div id="assign1" onClick={handleColorChange} className={colorChange=== "assign1" ? "active-module":'module-info'}>
-            <img src={colorChange=== "assign1" ? ActiveAssignmentIcon : AssignmentIcon} alt='' />
-            <div>
-            <h4>Assignment-1:</h4>
-            <p >Operators | Loops</p>
+            <div id="assign1" onClick={handleColorChange} className={colorChange=== "assign1" ? "active-module":'module-info'}>
+                <img src={colorChange=== "assign1" ? ActiveAssignmentIcon : AssignmentIcon} alt='' />
+                <div>
+                    <h4>Assignment-1:</h4>
+                    <p >Operators | Loops</p>
+                </div>          
             </div>
-           
-        </div>
         </Link>
     </div>
   )
