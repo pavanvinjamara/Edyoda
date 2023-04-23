@@ -12,7 +12,7 @@ function Review() {
         <p className='norm1'>Problems</p>
         </div>
         <div >
-        <p className='norm'>3</p>
+        <p className='norm'>100</p>
         <p className='norm1'>Total Score</p>
         </div>
         

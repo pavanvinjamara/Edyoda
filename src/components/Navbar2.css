@@ -17,6 +17,7 @@
     height: 30px;
     width: 30px;
     color: white;
+    pointer-events: none;
     padding-bottom: 7px;
 }
 .fa-active{
@@ -27,4 +28,12 @@
    align-items: center;
     flex-direction: column;
     padding: 20px 50px;
+    text-decoration: none;
+}
+.icon-active{
+    height: 30px;
+    width: 30px;
+    color: #15294b;
+    padding-bottom: 7px;
+    text-decoration: none;
 }
