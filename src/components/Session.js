@@ -17,11 +17,11 @@ const Session = () => {
 
   return (
     <div className='session'>
-      <div>
-        <button onClick={() => handleButtonClick(1)} className={activeButton === 1 ? 'active' : ''}><span>i</span> <span>SESSION PLAN</span></button>
-        <button onClick={() => handleButtonClick(2)} className={activeButton === 2 ? 'active' : ''}> <FontAwesomeIcon icon={faCirclePlay}/> <span>PRE-WATCH</span></button>
-        <button onClick={() => handleButtonClick(3)} className={activeButton === 3 ? 'active' : ''}> <FontAwesomeIcon icon={faVideo} /> <span>SESSION RECORDING</span></button>
-        <button onClick={() => handleButtonClick(4)} className={activeButton === 4 ? 'active' : ''}><FontAwesomeIcon icon={faFile} />REFERENCES<span></span></button>
+      <div className='nav-buttons'>
+        <button onClick={() => handleButtonClick(1)} className={activeButton === 1 ? 'active' : 'normalbutton1'}><span className='i-icon'> i</span> <span className="span9">SESSION PLAN</span></button>
+        <button onClick={() => handleButtonClick(2)} className={activeButton === 2 ? 'active' : 'normalbutton1'}> <FontAwesomeIcon icon={faCirclePlay} className='iiicon'/> <span className='sspan'>PRE-WATCH</span></button>
+        <button onClick={() => handleButtonClick(3)} className={activeButton === 3 ? 'active' : 'normalbutton1'}> <FontAwesomeIcon icon={faVideo} className='iiicon'/> <span className='sspan'>SESSION RECORDING</span></button>
+        <button onClick={() => handleButtonClick(4)} className={activeButton === 4 ? 'active' : 'normalbutton1'}><FontAwesomeIcon icon={faFile} className='iiicon'/><span className='sspan'>REFERENCES</span></button>
       </div>
       <div className='session-container'>
         {activeButton === 1 && 

@@ -10,7 +10,7 @@ function Home() {
     <div className='home'>
         
         <section className='section-home1'>
-            <HomeInfo1/>
+            <HomeInfo1 className/>
         </section>
         <section className='section-home2'>
         <h1>Continue Learning</h1>

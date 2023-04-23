@@ -19,14 +19,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route index element={<Home />} />
-          <Route path="/module/" element={<Module/>}>
-            <Route  index element={<PythonModule/>}/> 
-            <Route path="quiz" element={<Quiz/>}/>
-            <Route path='assignment' element={<Assignment/>}/>
+        <Route exact path="/" element={<Layout/>}>
+          <Route  index element={<Home />} />
+          <Route exact path="module/" element={<Module/>}>
+            <Route  index  element={<PythonModule/>}/> 
+            <Route exact path="quiz" element={<Quiz/>}/>
+            <Route exact path='assignment' element={<Assignment/>}/>
           </Route>
-          <Route path="instruct" element={<Instruction/>}/>
+          <Route exact path="instruct" element={<Instruction/>}/>
         </Route>
       </Routes>
       </BrowserRouter>

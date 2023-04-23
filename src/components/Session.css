@@ -1,3 +1,8 @@
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
 .session-container{
     background-color: white;
     border: 1.7px solid #9fcee2;
@@ -32,4 +37,40 @@
     width: fit-content;
     margin-bottom: 10px;
     background-color: #efefef;
+}
+
+.normalbutton1{
+    background-color: #f1f5fe;
+    border: none;
+    padding: 15px 20px;
+    display: flex;
+}
+.i-icon{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #15294b;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.span9{
+    padding-top: 5px;
+}
+
+.active{
+    background-color: white;
+    border-bottom:3px solid white;
+    border-left:1.7px solid #9fcee2;
+    border-right:1.7px solid #9fcee2 ;
+    border-top: 1.7px solid #9fcee2 ;
+    border-radius: 6px;
+    display: flex;
+    padding: 20px;
+}
+
+.iiicon{
+    height: 20px;
+ margin-right: 10px;
 }

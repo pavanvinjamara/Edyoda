@@ -5,6 +5,12 @@
     padding-bottom: 50px;
     /* padding: px 0px 40px 112px; */
 }
+.art0:hover{
+    transform: scale(1.1);
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.6),
+    -30px 0px 40px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
 
 .infohome1 > h1{
     font-family: 'Open Sans', sans-serif;

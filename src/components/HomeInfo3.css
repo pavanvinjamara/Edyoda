@@ -6,6 +6,12 @@
     margin-left: 20px;
     padding: 40px;
 }
+.homeinfo3:hover{
+    transform: scale(1.1);
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.6),
+    -30px 0px 40px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
 
 .homeinfo3 > p{
     font-weight: 400;
